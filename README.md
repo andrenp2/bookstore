@@ -17,3 +17,15 @@ Como configurar o projeto Django + Django Rest API FrameWork + Poetry
 12 - (opcional) gerar arquivo das dependencias -> poetry show --tree --no-dev > requirements.txt 
 
 ----- 
+
+declarar os modelos no admin.py de cada aplicativo
+dentro do init.py declara-se os models
+declarar os nossos apps (product e order) denntro do bookstore project (settings.py)
+deletar o models.py porque ja criamos um diretorio
+
+-----
+
+para os testes:
+
+- criar os factory que são 'modelos ficticios'
+- 
