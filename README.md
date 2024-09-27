@@ -28,3 +28,4 @@ deletar o models.py porque ja criamos um diretorio
 para os testes:
 
 - criar os factory que são 'modelos ficticios'
+- 
