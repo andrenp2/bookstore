@@ -8,7 +8,7 @@ def test_order_serializer():
     product_1 = ProductFactory()
     product_2 = ProductFactory()
 
-    order = OrderFactory(prodcut=(product_1, product_2))
+    order = OrderFactory(product=(product_1, product_2))
     order_serializer = OrderSerializer(order)
 
     #Serialize data
